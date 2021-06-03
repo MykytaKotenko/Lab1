@@ -18,70 +18,70 @@ public class Main {
         return res;
     }
     public static void main(String[] args) {
-//        System.out.println("Hello java world\n");
-//        System.out.println("Ala");
-//        System.out.println("ma");
-//        System.out.println("kota\n");
-//        int a = 3;
-//        double b = 4.21;
-//        String s = "Dzien dobry\n";
-//        System.out.print(leftPad(s, '+', 40));
-//        System.out.printf("a = %d, b = %.2f, s = %20s %n", a, b, s);
-//        System.out.println("Nazywalismy to \"witaminą B3\"");
-//
-//        System.out.printf("alfa\tsin(alfa)\n");
-//        for (int i = 0; i < 370; i+=10)
-//            System.out.printf("%d\t%f\t\n", i, Math.sin(i/360.0*2*Math.PI));
-//
-//        System.out.printf("arg\tlog2(arg)\tsum(arg)\n");
-//        for (int i = 1; i <= 64; i += i) {
-//            int result = (int) (Math.log(i) / Math.log(2));
-//            int sum = i + result;
-//
-//            System.out.printf("%d\t%d\t%d\t\n", i, result, sum);
-//        }
+       System.out.println("Hello java world\n");
+       System.out.println("Ala");
+       System.out.println("ma");
+       System.out.println("kota\n");
+       int a = 3;
+       double b = 4.21;
+       String s = "Dzien dobry\n";
+       System.out.print(leftPad(s, '+', 40));
+       System.out.printf("a = %d, b = %.2f, s = %20s %n", a, b, s);
+       System.out.println("Nazywalismy to \"witaminą B3\"");
 
-//        Scanner input = new Scanner(System.in);
-//        int num1=0, num2=0;
-//        do {
-//            //int num1=0, num2=0;
-//            System.out.print("Podaj liczbę, które mam dodać: ");
-//            num1 = input.nextInt();
-//            num2 = input.nextInt();
-//            if ((num1 == 0) || (num2 == 0)) break;
-//            System.out.printf("Wynik dodawania: %d + %d = %d%n", num1, num2, num1 + num2);
-//        } while (true);
+       System.out.printf("alfa\tsin(alfa)\n");
+       for (int i = 0; i < 370; i+=10)
+           System.out.printf("%d\t%f\t\n", i, Math.sin(i/360.0*2*Math.PI));
 
+       System.out.printf("arg\tlog2(arg)\tsum(arg)\n");
+       for (int i = 1; i <= 64; i += i) {
+           int result = (int) (Math.log(i) / Math.log(2));
+           int sum = i + result;
 
-//        Scanner input = new Scanner(System.in);
-//        System.out.print("Podaj liczbę: ");
-//        int num = input.nextInt();
-//        String toHEX = Integer.toHexString(num);
-//        String toBIN = Integer.toBinaryString(num);
-//        System.out.println("DEC = " + num + " BIN = " + leftPad(toBIN, '0', 8) + " HEX = %" + leftPad(toHEX, '0', 4).toUpperCase());
+           System.out.printf("%d\t%d\t%d\t\n", i, result, sum);
+       }
+
+       Scanner input = new Scanner(System.in);
+       int num1=0, num2=0;
+       do {
+           //int num1=0, num2=0;
+           System.out.print("Podaj liczbę, które mam dodać: ");
+           num1 = input.nextInt();
+           num2 = input.nextInt();
+           if ((num1 == 0) || (num2 == 0)) break;
+           System.out.printf("Wynik dodawania: %d + %d = %d%n", num1, num2, num1 + num2);
+       } while (true);
 
 
+       Scanner input = new Scanner(System.in);
+       System.out.print("Podaj liczbę: ");
+       int num = input.nextInt();
+       String toHEX = Integer.toHexString(num);
+       String toBIN = Integer.toBinaryString(num);
+       System.out.println("DEC = " + num + " BIN = " + leftPad(toBIN, '0', 8) + " HEX = %" + leftPad(toHEX, '0', 4).toUpperCase());
 
 
-//        int[] liczby = new int[30];
-//        Random rnd = new Random();
-//
-//        for(int i = 0; i < 30; i++)
-//            liczby[i] = rnd.nextInt();
-//
-//        int mx = Integer.MIN_VALUE;
-//        int mn = Integer.MAX_VALUE;
-//        long avg = 0;
-//        for(int l : liczby)
-//        {
-//            System.out.println(1);
-//            if (l < mn) mn = l;
-//            if (l > mx) mx = l;
-//            avg += l;
-//        }
-//        System.out.printf("MIN = %d, MAX = %d, AVG = %f", mn,mx,(float)avg/liczby.length);
 
-//       System.out.printf("%s%n", StringFun.anarhize("Hello"));
+
+       int[] liczby = new int[30];
+       Random rnd = new Random();
+
+       for(int i = 0; i < 30; i++)
+           liczby[i] = rnd.nextInt();
+
+       int mx = Integer.MIN_VALUE;
+       int mn = Integer.MAX_VALUE;
+       long avg = 0;
+       for(int l : liczby)
+       {
+           System.out.println(1);
+           if (l < mn) mn = l;
+           if (l > mx) mx = l;
+           avg += l;
+       }
+       System.out.printf("MIN = %d, MAX = %d, AVG = %f", mn,mx,(float)avg/liczby.length);
+
+      System.out.printf("%s%n", StringFun.anarhize("Hello"));
 
 
         Account acc = new Account();
@@ -93,20 +93,3 @@ public class Main {
 
     }
 }
-
-
-System.out printf("Illyxamuzyk",Account.translit( arg:"Ілля"))
-Sysyetme. DADJDJRUTAKRAKDD.class
-    
-FOUND SYSTEM FOR GAMES
-mPRE BACK MY ROOMS
-fUCK I DONT NOW
-yOU LISTEN MIJAGI
-nO I LISTEN t-FEST
-wHAT
-wHAT WHAT
-ITS IMPORTENT
-SEARSESLY
-YES YES
-OK GOODBY
-
